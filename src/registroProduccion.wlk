@@ -32,4 +32,7 @@ object registroProduccion {
     method cantidadProduccionesMayorALaPrimera(){
     	return produccionPorDia.count({ numero => numero > produccionPorDia.first()})
     }
+    
+    
+    
 }
